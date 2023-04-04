@@ -1,0 +1,71 @@
+body {
+    background-color: hotpink;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    background-color: greenyellow;
+    height: 200px;
+    width: 949px;
+}
+
+.two {
+    background-color: purple;
+    height: 400px;
+    width: 89px;
+}
+
+.three {
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+}
+
+.four {
+    background-color: yellow;
+    height: 50px;
+    width: 200px;
+}
+
+img {
+    position: absolute;
+    bottom: 30px;
+    animation-name: fish;
+    animation-duration: 2s;
+}
+
+
+@keyframes fish {
+    from {bottom: 30;}
+    to {bottom: 100;}
+}
+
+#annoying {
+    position: fixed;
+    bottom: 200px;
+    font-size: 100px;
+    color: firebrick;
+    left: -30px;
+}
+
+#bottom_wall {
+    position: fixed;
+    left: 500px;
+    bottom: 40px;
+    height: 200px;
+    width: 600px;
+}
+
+#bottom_wall img {
+    width: 2000px;
+    height: 400px;
+}
+
+#sidebar {
+    position: fixed;
+    right: 10px;
+}
